@@ -1,0 +1,36 @@
+.paper {
+  background: white;
+  width: min(90%, 900px);
+  aspect-ratio: 4/3;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  margin: 2rem auto;
+}
+
+.paper-header,
+.paper-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: .75rem 1rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+}
+.paper-footer {
+  border-top: 1px solid #eee;
+  border-bottom: none;
+}
+
+.paper-main {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.paper-main img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}

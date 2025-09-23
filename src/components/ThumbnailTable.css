@@ -1,0 +1,21 @@
+.thumb-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 120px);
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.thumb {
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid transparent;
+  padding: .5rem;
+  background:#f7f7f7;
+}
+.thumb.active {
+  border-color: #000;
+}
+.thumb img {
+  width: 100%;
+  height: auto;
+}
