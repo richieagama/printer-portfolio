@@ -20,7 +20,7 @@ export default function PaperView({ project, direction }) {
       className="paper"
     >
       <header className="paper-header">
-        <span>NikeLabs Demo</span>
+        <span>9/24/25, 7:28 PM</span>
         <span>{project.title}</span>
         <span>{project.id}</span>
       </header>
