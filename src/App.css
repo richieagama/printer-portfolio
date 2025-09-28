@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'VCR_OSD_MONO';
+  src: url('./assets/fonts/VCR_OSD_MONO.c27127111a28921bb777.woff2') format('woff2'),
+       url('./assets/fonts/VCR_OSD_MONO.c27127111a28921bb777.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'VCR_OSD_MONO', sans-serif;
+}
+
 body {
   margin: 0;
   background: #e5e5e5;
@@ -6,3 +18,4 @@ body {
 .App {
   padding: 1rem;
 }
+

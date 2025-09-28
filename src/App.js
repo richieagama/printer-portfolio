@@ -4,6 +4,8 @@ import projects from './data/projects';
 import ThumbnailTable from './components/ThumbnailTable';
 import PaperView from './components/PaperView';
 import './App.css';
+import Typewriter from './components/Typewriter';
+
 
 function App() {
   const [current, setCurrent] = useState(1);
@@ -18,6 +20,8 @@ function App() {
 
   return (
     <div className="App">
+
+
       <ThumbnailTable
         projects={projects}
         currentId={current}

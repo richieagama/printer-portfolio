@@ -11,7 +11,7 @@ export default function ThumbnailTable({ projects, currentId, onSelect }) {
           onClick={() => onSelect(p.id)}
         >
           <img src={p.image} alt={p.title} />
-          <p>{p.title}</p>
+          <p>{p.thumbnail_title}</p>
         </div>
       ))}
     </div>

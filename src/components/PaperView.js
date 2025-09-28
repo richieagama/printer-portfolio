@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './PaperView.css';
+import Typewriter from './Typewriter';
+
 
 export default function PaperView({ project, direction }) {
   const variants = {
@@ -20,9 +22,11 @@ export default function PaperView({ project, direction }) {
       className="paper"
     >
       <header className="paper-header">
-        <span>9/24/25, 7:28 PM</span>
-        <span>{project.title}</span>
+        
+        <Typewriter text="this is a Framer Motion typewriter effect!" speed={100} />
+        <Typewriter text={project.title} speed={100} />
         <span>{project.id}</span>
+
       </header>
 
       <main className="paper-main">
@@ -30,8 +34,10 @@ export default function PaperView({ project, direction }) {
       </main>
 
       <footer className="paper-footer">
-        <span>{project.date}</span>
-        <span>{project.file}</span>
+        
+        <Typewriter text={project.file} speed={100} />
+        <Typewriter text={project.date} speed={100} />
+
       </footer>
     </motion.div>
   );
