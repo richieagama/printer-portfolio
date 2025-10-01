@@ -4,7 +4,7 @@ const projects = [
     title: 'Falcon Brown - Poly Cotton Twill 5 Panel Hat',
     date: '09.22.2025',
     file: 'file:///C:/Users/RichardAgama/Documents/RPLF509_FALCON_BROWN.jpg',
-    image: '/images/RPLF509_FALCON_BROWN.jpg',
+    image: '/images/hat-o1.png',
     thumbnail_title: 'Falcon Brown'
   },
   {
@@ -12,7 +12,7 @@ const projects = [
     title: 'Off Black - Poly Cotton Twill 5 Panel Hat',
     date: '2000-01-01',
     file: 'file:///C:/Users/RichardAgama/Documents/RPLF509_OFF_BLACK.jpg',
-    image: '/images/RPLF509_OFF_BLACK.jpg',
+    image: '/images/hat-o2.png',
     thumbnail_title: 'Off Black'
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     title: 'Steel Gray - Poly Cotton Twill 5 Panel Hat',
     date: '9-22-2025',
     file: 'file:///C:/Users/RichardAgama/Documents/RPLF509_STEEL_GRAY.jpg',
-    image: '/images/RPLF509_STEEL_GRAY.jpg',
+    image: '/images/hat-o3.png',
     thumbnail_title: 'Steel Gray'
   }
 
